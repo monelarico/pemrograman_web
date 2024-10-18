@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body{
+    margin: 0;
+    background-image: url('assets/converse.png'); /* Ganti dengan jalur gambar */
+    background-size: cover; /* Membuat gambar menutupi seluruh elemen */
+    background-position: center; /* Memposisikan gambar di tengah */
+    background-repeat: no-repeat; /* Mencegah gambar berulang */
+    height: 100vh; /* Mengatur tinggi body agar sesuai dengan tinggi viewport */
+}
+
+.navbar {
+    display: flex; /* Menggunakan flexbox */
+    justify-content: space-between; /* Mengatur jarak antara logo dan tautan */
+    align-items: center; /* Menyelaraskan konten secara vertikal */
+    padding: 15px 20px; /* Ruang dalam navbar */
+    border-bottom: 3px #fff solid;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar .logo{
+    margin: auto;
+    font-family: "Anton", sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+    color: white;
+}
+
+.navbar .login{
+    margin: 0 20px;
+    font-family: "Anton", sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    color: white;
+}
+
+.navbar .signin{
+    margin: auto;
+    font-family: "Anton", sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    color: white;
+}
+
+.container {
+    width: auto;
+    height: 106vh;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    color: #fff;
+    width: 50%;
+    height: auto;
+}
+
+.img-container{
+    margin: 20px 0 0 50px;
+    display: flex;
+    flex-direction: row;
+    width: 430px;
+    height: 500px;
+}
+
+.img-container img {
+    height: 200px;
+    width: 200px;
+}
+
+.tag-1{
+    font-size: 3rem;
+}
+
+.footer{
+    background-color: #fff;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color:#000;
+    width: 40%;
+    height: auto; 
+}
+
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    width: 40%;
+    height: auto;  
+}
+
+.paraf-3 {
+    color: #000;
+}
